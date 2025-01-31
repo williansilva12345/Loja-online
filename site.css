@@ -1,5 +1,86 @@
-body{
+.wrapper{
 	
+	width:95%;
+	margin:0 auto;
+	
+	
+}
+
+#search-container{
+	
+	margin:1em 0;
+	
+}
+
+#search-container input{
+	
+	background:transparent;
+	width:40%;
+	border-bottom:2px solid orange;
+	padding:1em 0.3em;
+	outline:none;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	
+}
+
+
+#search-container input:focus{
+	
+	border-bottom-color:blue;
+	
+}
+
+#search-container button{
+	
+	padding:0.5em 0.5em;
+	background:green;
+	color:white;
+	border:none;
+	border-radius:10px;
+	
+}
+
+.button-Value{
+	border:2px soldi #6758ff;
+	padding :1em 2.2em;
+	border-radius:3em;
+	background-color:transparent;
+	color:#6759ff;
+	cursor:pointer;
+}
+
+.active{
 	background:black;
+	color:white;
+}
+
+#products{
 	
+	display:grid;
+	grid-template-columns:auto auto auto;
+	grid-row-gap:1em;
+	padding:3em 0;
+}
+
+.card{
+	max-width:18em;
+	border-radius:5px;
+	margin-top:1em;
+	
+}
+.image-container{
+	
+	text-align:center;
+	display:flex;
+	
+}
+img{
+	max-width:100%;
+	object-fit:contain;
+}
+
+.hide{
+	display:none;
 }
